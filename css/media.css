@@ -1,0 +1,107 @@
+@media screen and (max-width: 976px) {
+    .banner-list{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        gap: 20px;
+        
+        max-width: max-content;
+    }
+    .banner-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header{
+        background: #fff;
+    }
+    .header-nav__list{
+        display: none;
+    }
+    .header-content{
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 60px 20px;
+    }
+    .header-content__info h1{
+        font-size: 40px;
+        color: green;
+    }
+    .header-content__info p{
+        font-size: 26px;
+        line-height: 30px;
+        color: #000;
+    }
+    .mob-header-btn{
+        display: flex;
+    }
+    .mob-header-content{
+        display: flex;
+    }
+    .services-cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .clinic-info{
+        flex-direction: column;
+    }
+    .event-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-nav{
+        flex-direction: column;
+        padding-top: 20px;
+       
+    }
+    .footer-nav__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+  }
+@media screen and (max-width: 768px) {
+
+    .services-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+@media screen and (max-width: 576px) {
+    .services-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-prices h1{
+        font-size: 40px;
+    }
+    .sign_in-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .sign_in-content h2{
+        font-size: 26px;
+        margin-top: 15px;
+    }
+    .event-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .prices-content-items a{
+        flex-direction: column;
+    }
+    .prices-content-items a span{
+        display: none;
+    }
+    .prices-content-items a p{
+        font-size: 20px;
+        white-space: normal;
+        text-align: center;
+    }
+    .titles{
+        font-size: 30px;
+    }
+    .titles::after{
+        font-size: 30px;
+        left: 10px;
+        white-space: nowrap;
+    }
+  }
